@@ -1,0 +1,42 @@
+@font-face{
+	src: url(fonts/Codystar-Light.ttf);
+	font-family: CodystarLight;
+}
+@font-face{
+	src: url(fonts/Megrim.ttf);
+	font-family: Megrim;
+}
+.container{
+	width: 70%;
+	padding: 15px;
+	margin-left: auto;
+	margin-right: auto;
+	/*border: 5px solid #d6004a;*/
+	text-align: center;
+	box-shadow: 0 0px 900px 5px #d6004a;
+}
+
+.container h3{
+	font-size: 44px;
+	line-height: 62px;
+	font-family: Megrim;
+	color: #d6004a;
+	margin-top: 0;
+}
+.container p{
+	font-size: 22px;
+	line-height: 62px;
+	font-family: Megrim;
+	color:#56001d;
+	text-transform: lowercase;
+	margin-bottom: 0;
+	/*box-shadow: 0 0px 100px 5px #d6004a;*/
+}
+.inner-box{
+	padding: 15px;
+	box-shadow: 0 0px 100px 5px #d6004a;	
+}
+.content-box{
+	box-shadow: 0 0px 100px 5px #d6004a;
+	background-image: radial-gradient(#f7c5d6 40%, #fff, #fff);
+}
